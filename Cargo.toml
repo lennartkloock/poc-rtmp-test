@@ -1,0 +1,13 @@
+[package]
+name = "rtmp-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.44.1", features = ["full"] }
+
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
+
+scuffle-flv = { git = "https://github.com/ScuffleCloud/scuffle.git", rev = "2bfbe650ba7cf5572c022f447a0c0e2e909cf2f8" }
+scuffle-rtmp = { git = "https://github.com/ScuffleCloud/scuffle.git", rev = "2bfbe650ba7cf5572c022f447a0c0e2e909cf2f8" }
