@@ -1,5 +1,5 @@
 [package]
-name = "rtmp-test"
+name = "rtmp-test-server"
 version = "0.1.0"
 edition = "2024"
 
