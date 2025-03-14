@@ -478,6 +478,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184"
 
 [[package]]
+name = "poc-rtmp-server"
+version = "0.1.0"
+dependencies = [
+ "scuffle-flv",
+ "scuffle-rtmp",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
 name = "ppv-lite86"
 version = "0.2.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -541,17 +552,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0b8c0c260b63a8219631167be35e6a988e9554dbd323f8bd08439c8ed1302bd1"
 dependencies = [
  "bitflags",
-]
-
-[[package]]
-name = "rtmp-test-server"
-version = "0.1.0"
-dependencies = [
- "scuffle-flv",
- "scuffle-rtmp",
- "tokio",
- "tracing",
- "tracing-subscriber",
 ]
 
 [[package]]

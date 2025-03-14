@@ -1,5 +1,5 @@
 [package]
-name = "rtmp-test-server"
+name = "poc-rtmp-server"
 version = "0.1.0"
 edition = "2024"
 
